@@ -5,6 +5,7 @@ static const Block blocks[] = {
 	{" 🐧 ", "sb-kernel",										1800,		0},
 	{"🔔 ", "sb-pacupdate",										1800,		0},
 	{"🔉 ", "sb-volume",										1,		0},
+ 	{"🔋 ", "echo $(cat /sys/class/power_supply/BAT0/capacity)%",					60,		0},
 	{"🕖 ", "date '+%d.%m. (%I:%M)%p'   ",								10,		0},
 };
 
